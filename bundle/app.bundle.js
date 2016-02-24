@@ -484,19 +484,14 @@ webpackJsonp([0,1],[
 
 
 	// module
-	exports.push([module.id, "/********************** Home **************************/\n/********************** Article **************************/\n/********************** Gallery **************************/\n#blog {\n  color: #fff;\n  background: #020202;\n  background: -webkit-linear-gradient(top, #ccc, #020202);\n  background: -moz-linear-gradient(top, #ccc, #020202);\n  background: linear-gradient(top, #ccc, #020202);\n}\n#blog .home {\n  min-height: 900px;\n}\n#blog .home .home-page1 {\n  background: url(" + __webpack_require__(340) + ") center no-repeat;\n  background-size: cover;\n}\n#blog .article {\n  height: 100%;\n  background-image: url(" + __webpack_require__(10) + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-attachment: fixed;\n}\n#blog .gallery {\n  background: #212121;\n}\n#blog .codeBlock {\n  min-height: 900px;\n}\n#blog .about {\n  min-height: 900px;\n}\n.navbar {\n  margin-bottom: 0;\n}\n#blog .home .home-page1 .jumbotron {\n  width: 70%;\n  margin: 0 auto;\n  background-color: rgba(0, 0, 0, 0.3);\n  border-radius: 30px;\n}\n/* page style */\nhtml,\nbody {\n  height: 100%;\n  margin-left: 0;\n  margin-right: 0;\n}\n/* tools style */\na {\n  text-decoration: none;\n  outline: none;\n}\na:hover,\na:visited {\n  text-decoration: none;\n}\n#blog {\n  padding-top: 51px;\n}\n#blog .home .home-page1 {\n  height: 700px;\n  position: relative;\n  padding: 120px 0;\n}\n#blog .home .home-page1 h1 {\n  text-shadow: 0 0 3em #000;\n}\n#blog .home .home-page1 .time {\n  position: absolute;\n  top: 30px;\n  right: 90px;\n  font-size: 64px;\n  color: #f0f0f0;\n}\n#blog .home .home-page1 .time-detail {\n  position: absolute;\n  top: 120px;\n  right: 131px;\n}\n#blog .home .home-page1 .more a {\n  margin-top: 10px;\n  display: inline-block;\n  border: 2px solid #fff;\n  padding: 15px 108px;\n  border-radius: 7px;\n  box-shadow: 0 0 1em #000;\n  font-size: 20px;\n  color: #1a1a1a;\n  text-shadow: 1px 1px 3px #fff;\n}\n#blog .home .home-page2 {\n  position: relative;\n  background-image: -webkit-gradient(linear, center top, center bottom, color-stop(0.1, #ccc), color-stop(0.1, transparent), to(transparent));\n  background-size: 100% 20px;\n  background-color: #f0f0f0;\n  padding: 100px 0;\n}\n#blog .home .home-page2 .honeycomb {\n  width: 810px;\n  margin: 0 auto;\n}\n#blog .home .home-page2 .hex {\n  width: 150px;\n  height: 86px;\n  margin: 25px 5px;\n  position: relative;\n  float: left;\n  background-color: #ccc;\n  background-repeat: no-repeat;\n  background-position: 50% 50%;\n  -webkit-background-size: auto 173px;\n  text-align: center;\n  zoom: 1;\n  transition: all 0.5s ease-in-out;\n}\n#blog .home .home-page2 .hex-gap {\n  margin-left: 86px;\n}\n#blog .home .home-page2 .hex a {\n  display: block;\n  width: 100%;\n  height: 100%;\n  text-indent: -9999em;\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: 5;\n}\n#blog .home .home-page2 .hex:hover {\n  transform: rotate(360deg);\n  -webkit-transform: rotate(360deg);\n  -moz-transform: rotate(360deg);\n  -o-transform: rotate(360deg);\n  -ms-transform: rotate(360deg);\n}\n#blog .home .home-page2 .hex .corner1,\n#blog .home .home-page2 .hex .corner2 {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: inherit;\n  overflow: hidden;\n  backface-visibility: hidden;\n}\n#blog .home .home-page2 .hex .corner1 {\n  transform: rotate(60deg);\n}\n#blog .home .home-page2 .hex .corner2 {\n  transform: rotate(-60deg);\n}\n#blog .home .home-page2 .hex .corner1:before {\n  transform: rotate(-60deg) translate(-87px, 0px);\n  transform-origin: 0 0;\n}\n#blog .home .home-page2 .hex .corner2:before {\n  transform: rotate(60deg) translate(-48px, -11px);\n  bottom: 0;\n}\n#blog .home .home-page2 .hex .corner1:before,\n#blog .home .home-page2 .hex .corner2:before {\n  width: 173px;\n  height: 173px;\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: 1;\n  background: inherit;\n  background-repeat: no-repeat;\n  backface-visibility: hidden;\n}\n#blog .home .home-page3 {\n  background-color: rgba(0, 0, 0, 0);\n  padding: 100px 10%;\n}\n#blog .home .home-page3 .timeline {\n  width: 100%;\n  margin: 40px auto;\n  padding: 50px 10%;\n  background: rgba(58, 58, 58, 0);\n  /*box-shadow: 0 0 7px @timelineBoxShadow;*/\n  position: relative;\n}\n#blog .home .home-page3 .timeline .divideLine {\n  width: 2px;\n  height: 100%;\n  background-color: #fff;\n  position: absolute;\n  left: 50%;\n  top: -20px;\n  -webkit-transform: translateX(-50%);\n  -moz-transform: translateX(-50%);\n  -ms-transform: translateX(-50%);\n  -o-transform: translateX(-50%);\n  transform: translateX(-50%);\n}\n#blog .home .home-page3 .timeline .left,\n#blog .home .home-page3 .timeline .right {\n  width: 50%;\n}\n#blog .home .home-page3 .timeline .left .sub-time,\n#blog .home .home-page3 .timeline .right .sub-time {\n  width: 100%;\n  position: relative;\n  margin-bottom: 30px;\n}\n#blog .home .home-page3 .timeline .left .sub-time .dot-outer,\n#blog .home .home-page3 .timeline .right .sub-time .dot-outer {\n  display: block;\n  width: 14px;\n  height: 14px;\n  background-color: #EF5555;\n  position: absolute;\n  top: 6px;\n  left: 0;\n  -webkit-transform: translateX(-50%);\n  -moz-transform: translateX(-50%);\n  -ms-transform: translateX(-50%);\n  -o-transform: translateX(-50%);\n  transform: translateX(-50%);\n  border-radius: 50%;\n}\n#blog .home .home-page3 .timeline .left .sub-time .dot-inner,\n#blog .home .home-page3 .timeline .right .sub-time .dot-inner {\n  display: block;\n  width: 8px;\n  height: 8px;\n  background-color: #fff;\n  position: absolute;\n  top: 9px;\n  left: 0;\n  -webkit-transform: translateX(-50%);\n  -moz-transform: translateX(-50%);\n  -ms-transform: translateX(-50%);\n  -o-transform: translateX(-50%);\n  transform: translateX(-50%);\n  border-radius: 50%;\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-date,\n#blog .home .home-page3 .timeline .right .sub-time .time-date {\n  position: relative;\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-date .date,\n#blog .home .home-page3 .timeline .right .sub-time .time-date .date {\n  display: inline-block;\n  background-color: #EF5555;\n  color: #fff;\n  padding: 5px 10px;\n  border-radius: 3px;\n  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-date .arrow,\n#blog .home .home-page3 .timeline .right .sub-time .time-date .arrow {\n  position: absolute;\n  display: inline-block;\n  border-left: 5px solid transparent;\n  border-right: 5px solid #EF5555;\n  border-top: 5px solid transparent;\n  border-bottom: 5px solid transparent;\n  left: -10px;\n  top: 8px;\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-content,\n#blog .home .home-page3 .timeline .right .sub-time .time-content {\n  width: 100%;\n  padding: 10px 20px 20px;\n  margin-top: 10px;\n  box-sizing: border-box;\n  background-color: rgba(253, 250, 250, 0.39);\n  border-radius: 3px;\n  font-family: 'MicroSoft YaHei', Helvetica, Arial, sans-serif;\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-content p,\n#blog .home .home-page3 .timeline .right .sub-time .time-content p {\n  padding: 10px 0;\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-content .title,\n#blog .home .home-page3 .timeline .right .sub-time .time-content .title {\n  font-size: 16px;\n  font-weight: bold;\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-content .author > span,\n#blog .home .home-page3 .timeline .right .sub-time .time-content .author > span {\n  display: inline-block;\n  padding-right: 16px;\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-content .author > span a,\n#blog .home .home-page3 .timeline .right .sub-time .time-content .author > span a {\n  color: #555;\n  margin-left: 5px;\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-content .author > span span,\n#blog .home .home-page3 .timeline .right .sub-time .time-content .author > span span {\n  width: 12px;\n  height: 12px;\n  color: #555;\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-content .content,\n#blog .home .home-page3 .timeline .right .sub-time .time-content .content {\n  color: #000;\n}\n#blog .home .home-page3 .timeline .left .sub-time {\n  padding-right: 40px;\n}\n#blog .home .home-page3 .timeline .left .sub-time .dot-outer {\n  left: 100%;\n  -webkit-transform: translateX(-50%);\n  -moz-transform: translateX(-50%);\n  -ms-transform: translateX(-50%);\n  -o-transform: translateX(-50%);\n  transform: translateX(-50%);\n}\n#blog .home .home-page3 .timeline .left .sub-time .dot-inner {\n  left: 100%;\n  -webkit-transform: translateX(-50%);\n  -moz-transform: translateX(-50%);\n  -ms-transform: translateX(-50%);\n  -o-transform: translateX(-50%);\n  transform: translateX(-50%);\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-date {\n  text-align: right;\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-date .arrow {\n  border-left: 5px solid #EF5555;\n  border-right: 5px solid transparent;\n  left: 100%;\n}\n#blog .home .home-page3 .timeline .right {\n  padding-top: 30px;\n}\n#blog .home .home-page3 .timeline .right .sub-time {\n  padding-left: 40px;\n}\n#blog .article {\n  overflow: hidden;\n}\n#blog .article .article-wrapper {\n  width: 90%;\n}\n#blog .article .article-wrapper .article-detail {\n  width: 70%;\n  margin: 100px 0;\n  padding: 50px 5%;\n  background-color: rgba(0, 0, 0, 0.3);\n}\n#blog .article .article-wrapper .article-detail .a-list {\n  width: 100%;\n  overflow: hidden;\n  box-shadow: 0 0 6px #fff;\n  margin: 30px 0;\n  padding: 10px 20px 30px;\n  background-color: rgba(62, 62, 62, 0.3);\n}\n#blog .article .article-wrapper .article-detail .a-list .a-time {\n  padding-right: 5%;\n}\n#blog .article .article-wrapper .article-search {\n  width: 25%;\n  margin: 100px 0 100px 20px;\n  padding: 50px 3%;\n  background-color: rgba(0, 0, 0, 0.3);\n}\n#blog .article .article-wrapper .article-search .search input {\n  width: 60%;\n  height: 30px;\n  line-height: 30px;\n  background-color: rgba(0, 0, 0, 0);\n  border: 1px solid white;\n  outline: none;\n  border-radius: 2px;\n  margin-right: 10px;\n  text-indent: 10px;\n  font-weight: bold;\n  -webkit-transition: width 0.25s ease-in-out;\n  -moz-transition: width 0.25s ease-in-out;\n  -ms-transition: width 0.25s ease-in-out;\n  -o-transition: width 0.25s ease-in-out;\n  transition: width 0.25s ease-in-out;\n}\n#blog .article .article-wrapper .article-search .search input:focus {\n  width: 80%;\n}\n#blog .article .article-wrapper .article-search .search .s-btn {\n  background-color: #f0f0f0;\n  color: #333;\n  border: none;\n  width: 30px;\n  height: 30px;\n  border-radius: 2px;\n}\n#blog .article .article-wrapper .article-search .ca-list {\n  width: 85%;\n  margin: 20px 0;\n  border: 1px solid #fff;\n  padding: 5px 10px;\n  border-radius: 5px;\n  background-color: rgba(62, 62, 62, 0.3);\n}\n#blog .article .article-wrapper .article-search .ca-list .type-list li a {\n  display: inline-block;\n  padding: 2px 0;\n  color: #f0f0f0;\n}\n#blog .about {\n  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, #333), color-stop(0.25, transparent), color-stop(0.75, transparent), color-stop(0.75, #333)), -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, #333), color-stop(0.25, transparent), color-stop(0.75, transparent), color-stop(0.75, #333));\n  background-position: 0 0, 1px 1px;\n  background-color: #222;\n  background-size: 3px 3px;\n}\n#blog .about .portrait {\n  padding-top: 40px;\n}\n#blog .about .hobby {\n  padding: 20px 0 0 15px;\n}\n#blog .about .brief .brief-normal {\n  height: 319px;\n  margin-top: 30px;\n  overflow: hidden;\n  position: relative;\n}\n#blog .about .brief .brief-normal > h4 {\n  padding-left: 15px;\n}\n#blog .about .brief .brief-normal .brief-row {\n  position: absolute;\n  top: 39px;\n  left: 0;\n  margin-bottom: 20px;\n  padding: 10px 0;\n  background: rgba(56, 56, 56, 0.84);\n  -webkit-transition: all 0.25s ease-in-out;\n  -moz-transition: all 0.25s ease-in-out;\n  -ms-transition: all 0.25s ease-in-out;\n  -o-transition: all 0.25s ease-in-out;\n  transition: all 0.25s ease-in-out;\n}\n#blog .about .brief .literature .literature-1 {\n  opacity: 1;\n}\n#blog .about .brief .literature .literature-2 {\n  opacity: 0;\n}\n#blog .about .backToTop {\n  width: 40px;\n  height: 40px;\n  text-align: center;\n  position: fixed;\n  right: 5px;\n  bottom: 150px;\n  background-color: #999;\n}\n#blog .about .backToTop a {\n  display: inline-block;\n  width: 40px;\n  height: 40px;\n  color: #fff;\n}\n#blog .about .backToTop a .glyphicon {\n  width: 40px;\n  height: 40px;\n  line-height: 40px;\n  font-size: 20px;\n  position: absolute;\n  top: 0;\n  left: 0;\n  opacity: 1;\n  -webkit-transition: opacity .25s linear;\n  -moz-transition: opacity .25s linear;\n  -ms-transition: opacity .25s linear;\n  -o-transition: opacity .25s linear;\n  transition: opacity .25s linear;\n}\n#blog .about .backToTop a .toTop {\n  display: inline-block;\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  opacity: 0;\n  -webkit-transition: opacity .25s linear;\n  -moz-transition: opacity .25s linear;\n  -ms-transition: opacity .25s linear;\n  -o-transition: opacity .25s linear;\n  transition: opacity .25s linear;\n}\n#blog .about .backToTop a:hover .glyphicon {\n  opacity: 0;\n}\n#blog .about .backToTop a:hover .toTop {\n  opacity: 1;\n}\n#blog .footer {\n  padding: 50px;\n}\n", ""]);
+	exports.push([module.id, "/********************** Home **************************/\n/********************** Article **************************/\n/********************** Gallery **************************/\n#blog {\n  color: #fff;\n  background: #020202;\n  background: -webkit-linear-gradient(top, #ccc, #020202);\n  background: -moz-linear-gradient(top, #ccc, #020202);\n  background: linear-gradient(top, #ccc, #020202);\n}\n#blog .home {\n  min-height: 900px;\n}\n#blog .home .home-page1 {\n  background: url(" + __webpack_require__(340) + ") center no-repeat;\n  background-size: cover;\n}\n#blog .article {\n  height: 100%;\n  background-image: url(" + __webpack_require__(341) + ");\n  background-repeat: no-repeat;\n  background-size: cover;\n  background-attachment: fixed;\n}\n#blog .gallery {\n  background: #212121;\n}\n#blog .codeBlock {\n  min-height: 900px;\n}\n#blog .about {\n  min-height: 900px;\n}\n.navbar {\n  margin-bottom: 0;\n}\n#blog .home .home-page1 .jumbotron {\n  width: 70%;\n  margin: 0 auto;\n  background-color: rgba(0, 0, 0, 0.3);\n  border-radius: 30px;\n}\n/* page style */\nhtml,\nbody {\n  height: 100%;\n  margin-left: 0;\n  margin-right: 0;\n}\n/* tools style */\na {\n  text-decoration: none;\n  outline: none;\n}\na:hover,\na:visited {\n  text-decoration: none;\n}\n#blog {\n  padding-top: 51px;\n}\n#blog .home .home-page1 {\n  height: 700px;\n  position: relative;\n  padding: 120px 0;\n}\n#blog .home .home-page1 h1 {\n  text-shadow: 0 0 3em #000;\n}\n#blog .home .home-page1 .time {\n  position: absolute;\n  top: 30px;\n  right: 90px;\n  font-size: 64px;\n  color: #f0f0f0;\n}\n#blog .home .home-page1 .time-detail {\n  position: absolute;\n  top: 120px;\n  right: 131px;\n}\n#blog .home .home-page1 .more a {\n  margin-top: 10px;\n  display: inline-block;\n  border: 2px solid #fff;\n  padding: 15px 108px;\n  border-radius: 7px;\n  box-shadow: 0 0 1em #000;\n  font-size: 20px;\n  color: #1a1a1a;\n  text-shadow: 1px 1px 3px #fff;\n}\n#blog .home .home-page2 {\n  position: relative;\n  background-image: -webkit-gradient(linear, center top, center bottom, color-stop(0.1, #ccc), color-stop(0.1, transparent), to(transparent));\n  background-size: 100% 20px;\n  background-color: #f0f0f0;\n  padding: 100px 0;\n}\n#blog .home .home-page2 .honeycomb {\n  width: 810px;\n  margin: 0 auto;\n}\n#blog .home .home-page2 .hex {\n  width: 150px;\n  height: 86px;\n  margin: 25px 5px;\n  position: relative;\n  float: left;\n  background-color: #ccc;\n  background-repeat: no-repeat;\n  background-position: 50% 50%;\n  -webkit-background-size: auto 173px;\n  text-align: center;\n  zoom: 1;\n  transition: all 0.5s ease-in-out;\n}\n#blog .home .home-page2 .hex-gap {\n  margin-left: 86px;\n}\n#blog .home .home-page2 .hex a {\n  display: block;\n  width: 100%;\n  height: 100%;\n  text-indent: -9999em;\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: 5;\n}\n#blog .home .home-page2 .hex:hover {\n  transform: rotate(360deg);\n  -webkit-transform: rotate(360deg);\n  -moz-transform: rotate(360deg);\n  -o-transform: rotate(360deg);\n  -ms-transform: rotate(360deg);\n}\n#blog .home .home-page2 .hex .corner1,\n#blog .home .home-page2 .hex .corner2 {\n  position: absolute;\n  top: 0;\n  left: 0;\n  width: 100%;\n  height: 100%;\n  background: inherit;\n  overflow: hidden;\n  backface-visibility: hidden;\n}\n#blog .home .home-page2 .hex .corner1 {\n  transform: rotate(60deg);\n}\n#blog .home .home-page2 .hex .corner2 {\n  transform: rotate(-60deg);\n}\n#blog .home .home-page2 .hex .corner1:before {\n  transform: rotate(-60deg) translate(-87px, 0px);\n  transform-origin: 0 0;\n}\n#blog .home .home-page2 .hex .corner2:before {\n  transform: rotate(60deg) translate(-48px, -11px);\n  bottom: 0;\n}\n#blog .home .home-page2 .hex .corner1:before,\n#blog .home .home-page2 .hex .corner2:before {\n  width: 173px;\n  height: 173px;\n  content: '';\n  position: absolute;\n  top: 0;\n  left: 0;\n  z-index: 1;\n  background: inherit;\n  background-repeat: no-repeat;\n  backface-visibility: hidden;\n}\n#blog .home .home-page3 {\n  background-color: rgba(0, 0, 0, 0);\n  padding: 100px 10%;\n}\n#blog .home .home-page3 .timeline {\n  width: 100%;\n  margin: 40px auto;\n  padding: 50px 10%;\n  background: rgba(58, 58, 58, 0);\n  /*box-shadow: 0 0 7px @timelineBoxShadow;*/\n  position: relative;\n}\n#blog .home .home-page3 .timeline .divideLine {\n  width: 2px;\n  height: 100%;\n  background-color: #fff;\n  position: absolute;\n  left: 50%;\n  top: -20px;\n  -webkit-transform: translateX(-50%);\n  -moz-transform: translateX(-50%);\n  -ms-transform: translateX(-50%);\n  -o-transform: translateX(-50%);\n  transform: translateX(-50%);\n}\n#blog .home .home-page3 .timeline .left,\n#blog .home .home-page3 .timeline .right {\n  width: 50%;\n}\n#blog .home .home-page3 .timeline .left .sub-time,\n#blog .home .home-page3 .timeline .right .sub-time {\n  width: 100%;\n  position: relative;\n  margin-bottom: 30px;\n}\n#blog .home .home-page3 .timeline .left .sub-time .dot-outer,\n#blog .home .home-page3 .timeline .right .sub-time .dot-outer {\n  display: block;\n  width: 14px;\n  height: 14px;\n  background-color: #EF5555;\n  position: absolute;\n  top: 6px;\n  left: 0;\n  -webkit-transform: translateX(-50%);\n  -moz-transform: translateX(-50%);\n  -ms-transform: translateX(-50%);\n  -o-transform: translateX(-50%);\n  transform: translateX(-50%);\n  border-radius: 50%;\n}\n#blog .home .home-page3 .timeline .left .sub-time .dot-inner,\n#blog .home .home-page3 .timeline .right .sub-time .dot-inner {\n  display: block;\n  width: 8px;\n  height: 8px;\n  background-color: #fff;\n  position: absolute;\n  top: 9px;\n  left: 0;\n  -webkit-transform: translateX(-50%);\n  -moz-transform: translateX(-50%);\n  -ms-transform: translateX(-50%);\n  -o-transform: translateX(-50%);\n  transform: translateX(-50%);\n  border-radius: 50%;\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-date,\n#blog .home .home-page3 .timeline .right .sub-time .time-date {\n  position: relative;\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-date .date,\n#blog .home .home-page3 .timeline .right .sub-time .time-date .date {\n  display: inline-block;\n  background-color: #EF5555;\n  color: #fff;\n  padding: 5px 10px;\n  border-radius: 3px;\n  box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.3);\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-date .arrow,\n#blog .home .home-page3 .timeline .right .sub-time .time-date .arrow {\n  position: absolute;\n  display: inline-block;\n  border-left: 5px solid transparent;\n  border-right: 5px solid #EF5555;\n  border-top: 5px solid transparent;\n  border-bottom: 5px solid transparent;\n  left: -10px;\n  top: 8px;\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-content,\n#blog .home .home-page3 .timeline .right .sub-time .time-content {\n  width: 100%;\n  padding: 10px 20px 20px;\n  margin-top: 10px;\n  box-sizing: border-box;\n  background-color: rgba(253, 250, 250, 0.39);\n  border-radius: 3px;\n  font-family: 'MicroSoft YaHei', Helvetica, Arial, sans-serif;\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-content p,\n#blog .home .home-page3 .timeline .right .sub-time .time-content p {\n  padding: 10px 0;\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-content .title,\n#blog .home .home-page3 .timeline .right .sub-time .time-content .title {\n  font-size: 16px;\n  font-weight: bold;\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-content .author > span,\n#blog .home .home-page3 .timeline .right .sub-time .time-content .author > span {\n  display: inline-block;\n  padding-right: 16px;\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-content .author > span a,\n#blog .home .home-page3 .timeline .right .sub-time .time-content .author > span a {\n  color: #555;\n  margin-left: 5px;\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-content .author > span span,\n#blog .home .home-page3 .timeline .right .sub-time .time-content .author > span span {\n  width: 12px;\n  height: 12px;\n  color: #555;\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-content .content,\n#blog .home .home-page3 .timeline .right .sub-time .time-content .content {\n  color: #000;\n}\n#blog .home .home-page3 .timeline .left .sub-time {\n  padding-right: 40px;\n}\n#blog .home .home-page3 .timeline .left .sub-time .dot-outer {\n  left: 100%;\n  -webkit-transform: translateX(-50%);\n  -moz-transform: translateX(-50%);\n  -ms-transform: translateX(-50%);\n  -o-transform: translateX(-50%);\n  transform: translateX(-50%);\n}\n#blog .home .home-page3 .timeline .left .sub-time .dot-inner {\n  left: 100%;\n  -webkit-transform: translateX(-50%);\n  -moz-transform: translateX(-50%);\n  -ms-transform: translateX(-50%);\n  -o-transform: translateX(-50%);\n  transform: translateX(-50%);\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-date {\n  text-align: right;\n}\n#blog .home .home-page3 .timeline .left .sub-time .time-date .arrow {\n  border-left: 5px solid #EF5555;\n  border-right: 5px solid transparent;\n  left: 100%;\n}\n#blog .home .home-page3 .timeline .right {\n  padding-top: 30px;\n}\n#blog .home .home-page3 .timeline .right .sub-time {\n  padding-left: 40px;\n}\n#blog .article {\n  overflow: hidden;\n}\n#blog .article .article-wrapper {\n  width: 90%;\n}\n#blog .article .article-wrapper .article-detail {\n  width: 70%;\n  margin: 100px 0;\n  padding: 50px 5%;\n  background-color: rgba(0, 0, 0, 0.3);\n}\n#blog .article .article-wrapper .article-detail .a-list {\n  width: 100%;\n  overflow: hidden;\n  box-shadow: 0 0 6px #fff;\n  margin: 30px 0;\n  padding: 10px 20px 30px;\n  background-color: rgba(62, 62, 62, 0.3);\n}\n#blog .article .article-wrapper .article-detail .a-list .a-time {\n  padding-right: 5%;\n}\n#blog .article .article-wrapper .article-search {\n  width: 25%;\n  margin: 100px 0 100px 20px;\n  padding: 50px 3%;\n  background-color: rgba(0, 0, 0, 0.3);\n}\n#blog .article .article-wrapper .article-search .search input {\n  width: 60%;\n  height: 30px;\n  line-height: 30px;\n  background-color: rgba(0, 0, 0, 0);\n  border: 1px solid white;\n  outline: none;\n  border-radius: 2px;\n  margin-right: 10px;\n  text-indent: 10px;\n  font-weight: bold;\n  -webkit-transition: width 0.25s ease-in-out;\n  -moz-transition: width 0.25s ease-in-out;\n  -ms-transition: width 0.25s ease-in-out;\n  -o-transition: width 0.25s ease-in-out;\n  transition: width 0.25s ease-in-out;\n}\n#blog .article .article-wrapper .article-search .search input:focus {\n  width: 80%;\n}\n#blog .article .article-wrapper .article-search .search .s-btn {\n  background-color: #f0f0f0;\n  color: #333;\n  border: none;\n  width: 30px;\n  height: 30px;\n  border-radius: 2px;\n}\n#blog .article .article-wrapper .article-search .ca-list {\n  width: 85%;\n  margin: 20px 0;\n  border: 1px solid #fff;\n  padding: 5px 10px;\n  border-radius: 5px;\n  background-color: rgba(62, 62, 62, 0.3);\n}\n#blog .article .article-wrapper .article-search .ca-list .type-list li a {\n  display: inline-block;\n  padding: 2px 0;\n  color: #f0f0f0;\n}\n#blog .about {\n  background-image: -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, #333), color-stop(0.25, transparent), color-stop(0.75, transparent), color-stop(0.75, #333)), -webkit-gradient(linear, 0 100%, 100% 0, color-stop(0.25, #333), color-stop(0.25, transparent), color-stop(0.75, transparent), color-stop(0.75, #333));\n  background-position: 0 0, 1px 1px;\n  background-color: #222;\n  background-size: 3px 3px;\n}\n#blog .about .portrait {\n  padding-top: 40px;\n}\n#blog .about .hobby {\n  padding: 20px 0 0 15px;\n}\n#blog .about .brief .brief-normal {\n  height: 319px;\n  margin-top: 30px;\n  overflow: hidden;\n  position: relative;\n}\n#blog .about .brief .brief-normal > h4 {\n  padding-left: 15px;\n}\n#blog .about .brief .brief-normal .brief-row {\n  position: absolute;\n  top: 39px;\n  left: 0;\n  margin-bottom: 20px;\n  padding: 10px 0;\n  background: rgba(56, 56, 56, 0.84);\n  -webkit-transition: all 0.25s ease-in-out;\n  -moz-transition: all 0.25s ease-in-out;\n  -ms-transition: all 0.25s ease-in-out;\n  -o-transition: all 0.25s ease-in-out;\n  transition: all 0.25s ease-in-out;\n}\n#blog .about .brief .literature .literature-1 {\n  opacity: 1;\n}\n#blog .about .brief .literature .literature-2 {\n  opacity: 0;\n}\n#blog .about .backToTop {\n  width: 40px;\n  height: 40px;\n  text-align: center;\n  position: fixed;\n  right: 5px;\n  bottom: 150px;\n  background-color: #999;\n}\n#blog .about .backToTop a {\n  display: inline-block;\n  width: 40px;\n  height: 40px;\n  color: #fff;\n}\n#blog .about .backToTop a .glyphicon {\n  width: 40px;\n  height: 40px;\n  line-height: 40px;\n  font-size: 20px;\n  position: absolute;\n  top: 0;\n  left: 0;\n  opacity: 1;\n  -webkit-transition: opacity .25s linear;\n  -moz-transition: opacity .25s linear;\n  -ms-transition: opacity .25s linear;\n  -o-transition: opacity .25s linear;\n  transition: opacity .25s linear;\n}\n#blog .about .backToTop a .toTop {\n  display: inline-block;\n  width: 100%;\n  height: 100%;\n  position: absolute;\n  top: 0;\n  left: 0;\n  opacity: 0;\n  -webkit-transition: opacity .25s linear;\n  -moz-transition: opacity .25s linear;\n  -ms-transition: opacity .25s linear;\n  -o-transition: opacity .25s linear;\n  transition: opacity .25s linear;\n}\n#blog .about .backToTop a:hover .glyphicon {\n  opacity: 0;\n}\n#blog .about .backToTop a:hover .toTop {\n  opacity: 1;\n}\n#blog .footer {\n  padding: 50px;\n}\n", ""]);
 
 	// exports
 
 
 /***/ },
 /* 9 */,
-/* 10 */
-/***/ function(module, exports, __webpack_require__) {
-
-	module.exports = __webpack_require__.p + "48d14ed4d32bcf954bf9ee5c4d2240b3.jpg";
-
-/***/ },
+/* 10 */,
 /* 11 */
 /***/ function(module, exports, __webpack_require__) {
 
@@ -34289,416 +34284,433 @@ webpackJsonp([0,1],[
 /* 335 */
 /***/ function(module, exports, __webpack_require__) {
 
-	"use strict";
+	'use strict';
 
-	Object.defineProperty(exports, "__esModule", {
+	Object.defineProperty(exports, '__esModule', {
 		value: true
 	});
 
-	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { "default": obj }; }
+	function _interopRequireDefault(obj) { return obj && obj.__esModule ? obj : { 'default': obj }; }
 
 	var _react = __webpack_require__(192);
 
 	var _react2 = _interopRequireDefault(_react);
 
-	var Article = _react2["default"].createClass({
-		displayName: "Article",
+	var Article = _react2['default'].createClass({
+		displayName: 'Article',
 
+		getInitialState: function getInitialState() {
+			return {
+				picLoad: false
+			};
+		},
+		componentDidMount: function componentDidMount() {
+			var _this = this;
+
+			// load high quality bg
+			// replace indistinct pic
+			var hideImg = this.refs.hideImg.getDOMNode();
+			hideImg.onload = function () {
+				_this.setState({ picLoad: true });
+			};
+		},
 		render: function render() {
-			return _react2["default"].createElement(
-				"div",
-				{ className: "article" },
-				_react2["default"].createElement(
-					"div",
-					{ className: "article-wrapper center-block clearfix" },
-					_react2["default"].createElement(
-						"div",
-						{ className: "article-detail pull-left" },
-						_react2["default"].createElement(
-							"h2",
+			var bgStyle = picLoad ? { backgroundImage: 'url(./src/images/bg-11.jpg)' } : {};
+			return _react2['default'].createElement(
+				'div',
+				{ className: 'article', style: bgStyle },
+				_react2['default'].createElement('img', { src: './src/images/bg-11.jpg', alt: 'hideImg', style: { display: "none" }, ref: 'hideImg' }),
+				_react2['default'].createElement(
+					'div',
+					{ className: 'article-wrapper center-block clearfix' },
+					_react2['default'].createElement(
+						'div',
+						{ className: 'article-detail pull-left' },
+						_react2['default'].createElement(
+							'h2',
 							null,
-							"Article List"
+							'Article List'
 						),
-						_react2["default"].createElement(
-							"div",
-							{ className: "a-list" },
-							_react2["default"].createElement(
-								"h3",
+						_react2['default'].createElement(
+							'div',
+							{ className: 'a-list' },
+							_react2['default'].createElement(
+								'h3',
 								null,
-								"title1"
+								'title1'
 							),
-							_react2["default"].createElement(
-								"p",
+							_react2['default'].createElement(
+								'p',
 								null,
-								"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error vel dolorum distinctio! Veritatis molestias itaque iste reprehenderit quod, eum omnis rerum sequi! Eveniet maiores aperiam cupiditate qui nulla iusto molestias."
+								'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error vel dolorum distinctio! Veritatis molestias itaque iste reprehenderit quod, eum omnis rerum sequi! Eveniet maiores aperiam cupiditate qui nulla iusto molestias.'
 							),
-							_react2["default"].createElement(
-								"p",
+							_react2['default'].createElement(
+								'p',
 								null,
-								"随笔"
+								'随笔'
 							),
-							_react2["default"].createElement(
-								"p",
-								{ className: "a-time text-right" },
-								"2015-12-16"
+							_react2['default'].createElement(
+								'p',
+								{ className: 'a-time text-right' },
+								'2015-12-16'
 							)
 						),
-						_react2["default"].createElement(
-							"div",
-							{ className: "a-list" },
-							_react2["default"].createElement(
-								"h3",
+						_react2['default'].createElement(
+							'div',
+							{ className: 'a-list' },
+							_react2['default'].createElement(
+								'h3',
 								null,
-								"title2"
+								'title2'
 							),
-							_react2["default"].createElement(
-								"p",
+							_react2['default'].createElement(
+								'p',
 								null,
-								"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae necessitatibus accusamus possimus inventore accusantium, excepturi deleniti consequatur voluptatibus optio, animi non mollitia amet explicabo porro quos, enim quam eius sunt."
+								'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Beatae necessitatibus accusamus possimus inventore accusantium, excepturi deleniti consequatur voluptatibus optio, animi non mollitia amet explicabo porro quos, enim quam eius sunt.'
 							),
-							_react2["default"].createElement(
-								"p",
+							_react2['default'].createElement(
+								'p',
 								null,
-								"散文"
+								'散文'
 							),
-							_react2["default"].createElement(
-								"p",
-								{ className: "a-time text-right" },
-								"2015-12-16"
+							_react2['default'].createElement(
+								'p',
+								{ className: 'a-time text-right' },
+								'2015-12-16'
 							)
 						),
-						_react2["default"].createElement(
-							"div",
-							{ className: "a-list" },
-							_react2["default"].createElement(
-								"h3",
+						_react2['default'].createElement(
+							'div',
+							{ className: 'a-list' },
+							_react2['default'].createElement(
+								'h3',
 								null,
-								"title3"
+								'title3'
 							),
-							_react2["default"].createElement(
-								"p",
+							_react2['default'].createElement(
+								'p',
 								null,
-								"Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sunt veritatis, illum explicabo. Dolorem fugiat minima alias dolor fuga qui, iusto aspernatur totam possimus assumenda, sit est porro quam perspiciatis!"
+								'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Reprehenderit sunt veritatis, illum explicabo. Dolorem fugiat minima alias dolor fuga qui, iusto aspernatur totam possimus assumenda, sit est porro quam perspiciatis!'
 							),
-							_react2["default"].createElement(
-								"p",
+							_react2['default'].createElement(
+								'p',
 								null,
-								"心情"
+								'心情'
 							),
-							_react2["default"].createElement(
-								"p",
-								{ className: "a-time text-right" },
-								"2015-12-16"
+							_react2['default'].createElement(
+								'p',
+								{ className: 'a-time text-right' },
+								'2015-12-16'
 							)
 						),
-						_react2["default"].createElement(
-							"div",
-							{ className: "a-list" },
-							_react2["default"].createElement(
-								"h3",
+						_react2['default'].createElement(
+							'div',
+							{ className: 'a-list' },
+							_react2['default'].createElement(
+								'h3',
 								null,
-								"title4"
+								'title4'
 							),
-							_react2["default"].createElement(
-								"p",
+							_react2['default'].createElement(
+								'p',
 								null,
-								"Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus."
+								'Vestibulum ac diam sit amet quam vehicula elementum sed sit amet dui. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Cras ultricies ligula sed magna dictum porta. Curabitur arcu erat, accumsan id imperdiet et, porttitor at sem. Nulla quis lorem ut libero malesuada feugiat. Sed porttitor lectus nibh. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus. Nulla quis lorem ut libero malesuada feugiat. Vivamus magna justo, lacinia eget consectetur sed, convallis at tellus.'
 							)
 						),
-						_react2["default"].createElement(
-							"div",
-							{ className: "a-list" },
-							_react2["default"].createElement(
-								"h3",
+						_react2['default'].createElement(
+							'div',
+							{ className: 'a-list' },
+							_react2['default'].createElement(
+								'h3',
 								null,
-								"title5"
+								'title5'
 							),
-							_react2["default"].createElement(
-								"p",
+							_react2['default'].createElement(
+								'p',
 								null,
-								"Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla porttitor accumsan tincidunt. Pellentesque in ipsum id orci porta dapibus. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus."
+								'Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla porttitor accumsan tincidunt. Pellentesque in ipsum id orci porta dapibus. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus.'
 							)
 						),
-						_react2["default"].createElement(
-							"div",
-							{ className: "a-list" },
-							_react2["default"].createElement(
-								"h3",
+						_react2['default'].createElement(
+							'div',
+							{ className: 'a-list' },
+							_react2['default'].createElement(
+								'h3',
 								null,
-								"title5"
+								'title5'
 							),
-							_react2["default"].createElement(
-								"p",
+							_react2['default'].createElement(
+								'p',
 								null,
-								"Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla porttitor accumsan tincidunt. Pellentesque in ipsum id orci porta dapibus. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus."
+								'Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla porttitor accumsan tincidunt. Pellentesque in ipsum id orci porta dapibus. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus.'
 							)
 						),
-						_react2["default"].createElement(
-							"div",
-							{ className: "a-list" },
-							_react2["default"].createElement(
-								"h3",
+						_react2['default'].createElement(
+							'div',
+							{ className: 'a-list' },
+							_react2['default'].createElement(
+								'h3',
 								null,
-								"title5"
+								'title5'
 							),
-							_react2["default"].createElement(
-								"p",
+							_react2['default'].createElement(
+								'p',
 								null,
-								"Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla porttitor accumsan tincidunt. Pellentesque in ipsum id orci porta dapibus. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus."
+								'Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla porttitor accumsan tincidunt. Pellentesque in ipsum id orci porta dapibus. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus.'
 							)
 						),
-						_react2["default"].createElement(
-							"div",
-							{ className: "a-list" },
-							_react2["default"].createElement(
-								"h3",
+						_react2['default'].createElement(
+							'div',
+							{ className: 'a-list' },
+							_react2['default'].createElement(
+								'h3',
 								null,
-								"title5"
+								'title5'
 							),
-							_react2["default"].createElement(
-								"p",
+							_react2['default'].createElement(
+								'p',
 								null,
-								"Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla porttitor accumsan tincidunt. Pellentesque in ipsum id orci porta dapibus. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus."
+								'Praesent sapien massa, convallis a pellentesque nec, egestas non nisi. Curabitur non nulla sit amet nisl tempus convallis quis ac lectus. Vivamus suscipit tortor eget felis porttitor volutpat. Nulla porttitor accumsan tincidunt. Pellentesque in ipsum id orci porta dapibus. Sed porttitor lectus nibh. Cras ultricies ligula sed magna dictum porta. Cras ultricies ligula sed magna dictum porta. Mauris blandit aliquet elit, eget tincidunt nibh pulvinar a. Proin eget tortor risus.'
 							)
 						)
 					),
-					_react2["default"].createElement(
-						"div",
-						{ className: "article-search pull-left" },
-						_react2["default"].createElement(
-							"div",
-							{ className: "search" },
-							_react2["default"].createElement("input", { type: "text", placeholder: "search" }),
-							_react2["default"].createElement(
-								"button",
-								{ className: "s-btn" },
-								_react2["default"].createElement("span", { className: "glyphicon glyphicon-search" })
+					_react2['default'].createElement(
+						'div',
+						{ className: 'article-search pull-left' },
+						_react2['default'].createElement(
+							'div',
+							{ className: 'search' },
+							_react2['default'].createElement('input', { type: 'text', placeholder: 'search' }),
+							_react2['default'].createElement(
+								'button',
+								{ className: 's-btn' },
+								_react2['default'].createElement('span', { className: 'glyphicon glyphicon-search' })
 							)
 						),
-						_react2["default"].createElement(
-							"div",
-							{ className: "ca-list type" },
-							_react2["default"].createElement(
-								"h4",
+						_react2['default'].createElement(
+							'div',
+							{ className: 'ca-list type' },
+							_react2['default'].createElement(
+								'h4',
 								null,
-								"文章分类"
+								'文章分类'
 							),
-							_react2["default"].createElement(
-								"ul",
-								{ className: "type-list" },
-								_react2["default"].createElement(
-									"li",
+							_react2['default'].createElement(
+								'ul',
+								{ className: 'type-list' },
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"生活(984)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'生活(984)'
 									)
 								),
-								_react2["default"].createElement(
-									"li",
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"随笔(12)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'随笔(12)'
 									)
 								),
-								_react2["default"].createElement(
-									"li",
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"散文(32)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'散文(32)'
 									)
 								),
-								_react2["default"].createElement(
-									"li",
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"心情(2)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'心情(2)'
 									)
 								),
-								_react2["default"].createElement(
-									"li",
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"代码撸区(45)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'代码撸区(45)'
 									)
 								)
 							)
 						),
-						_react2["default"].createElement(
-							"div",
-							{ className: "ca-list date" },
-							_react2["default"].createElement(
-								"h4",
+						_react2['default'].createElement(
+							'div',
+							{ className: 'ca-list date' },
+							_react2['default'].createElement(
+								'h4',
 								null,
-								"发布时间"
+								'发布时间'
 							),
-							_react2["default"].createElement(
-								"ul",
-								{ className: "type-list" },
-								_react2["default"].createElement(
-									"li",
+							_react2['default'].createElement(
+								'ul',
+								{ className: 'type-list' },
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"2015年4月(984)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'2015年4月(984)'
 									)
 								),
-								_react2["default"].createElement(
-									"li",
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"2015年5月(12)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'2015年5月(12)'
 									)
 								),
-								_react2["default"].createElement(
-									"li",
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"2015年6月(32)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'2015年6月(32)'
 									)
 								),
-								_react2["default"].createElement(
-									"li",
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"2015年7月(2)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'2015年7月(2)'
 									)
 								),
-								_react2["default"].createElement(
-									"li",
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"2015年8月(45)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'2015年8月(45)'
 									)
 								),
-								_react2["default"].createElement(
-									"li",
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"2015年9月(45)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'2015年9月(45)'
 									)
 								),
-								_react2["default"].createElement(
-									"li",
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"2015年10月(45)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'2015年10月(45)'
 									)
 								),
-								_react2["default"].createElement(
-									"li",
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"2015年11月(45)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'2015年11月(45)'
 									)
 								),
-								_react2["default"].createElement(
-									"li",
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"2015年12月(45)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'2015年12月(45)'
 									)
 								)
 							)
 						),
-						_react2["default"].createElement(
-							"div",
-							{ className: "ca-list date" },
-							_react2["default"].createElement(
-								"h4",
+						_react2['default'].createElement(
+							'div',
+							{ className: 'ca-list date' },
+							_react2['default'].createElement(
+								'h4',
 								null,
-								"最新发布"
+								'最新发布'
 							),
-							_react2["default"].createElement(
-								"ul",
-								{ className: "type-list" },
-								_react2["default"].createElement(
-									"li",
+							_react2['default'].createElement(
+								'ul',
+								{ className: 'type-list' },
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"最新发布1(45)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'最新发布1(45)'
 									)
 								),
-								_react2["default"].createElement(
-									"li",
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"最新发布2(12)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'最新发布2(12)'
 									)
 								),
-								_react2["default"].createElement(
-									"li",
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"最新发布3(32)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'最新发布3(32)'
 									)
 								),
-								_react2["default"].createElement(
-									"li",
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"最新发布4(2)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'最新发布4(2)'
 									)
 								),
-								_react2["default"].createElement(
-									"li",
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"最新发布5(45)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'最新发布5(45)'
 									)
 								),
-								_react2["default"].createElement(
-									"li",
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"最新发布8(45)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'最新发布8(45)'
 									)
 								),
-								_react2["default"].createElement(
-									"li",
+								_react2['default'].createElement(
+									'li',
 									null,
-									_react2["default"].createElement(
-										"a",
-										{ href: "" },
-										"最新发布9(45)"
+									_react2['default'].createElement(
+										'a',
+										{ href: '' },
+										'最新发布9(45)'
 									)
 								)
 							)
@@ -34709,8 +34721,8 @@ webpackJsonp([0,1],[
 		}
 	});
 
-	exports["default"] = Article;
-	module.exports = exports["default"];
+	exports['default'] = Article;
+	module.exports = exports['default'];
 
 /***/ },
 /* 336 */
@@ -35716,6 +35728,12 @@ webpackJsonp([0,1],[
 /***/ function(module, exports, __webpack_require__) {
 
 	module.exports = __webpack_require__.p + "28d856ac95af1b121b9d019b6e46fb07.jpg";
+
+/***/ },
+/* 341 */
+/***/ function(module, exports, __webpack_require__) {
+
+	module.exports = __webpack_require__.p + "581d0d4338bf842564ebb9deaa8449ce.jpg";
 
 /***/ }
 ]);
